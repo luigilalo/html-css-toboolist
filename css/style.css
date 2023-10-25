@@ -3,9 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {background-color: rgb(189, 220, 193);}
+.backgroundheader {background-color: white;
+margin-bottom: 50px;}
 #logo-toboolist {
+    width: 300px;
     margin: 20px;
 }
+#flex-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex-item {
+    width: 900px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 1px;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 10px 10px 5px lightblue;
 
-main {background-color: rgb(204, 227, 201);
-height: 1000px;}
+}
+
+.addtask {margin-left: 45px;
+    margin-top: 7px;
+    background-color: #29bdfd;
+    color: rgb(0, 0, 0);
+    padding: 4px 4px;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-style: solid;
+    border-width: thin;
+    cursor: pointer;}
+
+    .addsection { background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        padding: 4px 4px;
+        border-radius: 6px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        border-style: solid;
+        border-width: thin;
+        cursor: pointer;}
