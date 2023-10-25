@@ -53,3 +53,27 @@ margin-bottom: 50px;}
         border-style: solid;
         border-width: thin;
         cursor: pointer;}
+
+        .summary {margin-left: 45px;}
+        .whatappears {margin-left: 45px;}
+
+        .Editorial {
+            display: inline-block;
+            width: 60px;
+            height: 16px;
+            color: white;
+            background-color: rgb(159, 34, 34);
+            border-radius: 5px; }
+            .text-center {
+                text-align: center;
+            }
+            .icongreen{
+                color: green;
+                border-style: ridge;
+                border-width: 1px;
+                border-color: green;
+                border-radius: 50%;
+                text-align: center;
+                margin: 5px 10px 5px 0;
+                font-size: small;
+                padding:2px 3px 2px 3px; }
