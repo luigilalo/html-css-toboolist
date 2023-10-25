@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo-toboolist {
+    margin: 20px;
+}
+
+main {background-color: rgb(204, 227, 201);
+height: 1000px;}
